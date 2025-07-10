@@ -32,9 +32,7 @@ Root privileges: Use sudo to run the script.
 Network Interface: Identify with ip link (e.g., eth0, wlan0).
 
 🛠 Installation
-bash
-Copy
-Edit
+
 # Update your system
 sudo apt update && sudo apt upgrade -y
 
@@ -47,9 +45,7 @@ pip3 install scapy termcolor
 # Verify installations
 python3 -c "import scapy, termcolor"
 ▶️ Usage
-bash
-Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/ARPRAHMAN/network-sniffer.git
 cd network-sniffer
@@ -63,9 +59,7 @@ sniffer_output.txt (human-readable log)
 sniffer_output.pcap (for tools like Wireshark)
 
 🧪 Example Output
-yaml
-Copy
-Edit
+
 [*] Starting network sniffer on interface eth0...
 [*] Logging output to sniffer_output.txt and saving packets to sniffer_output.pcap
 
@@ -76,6 +70,7 @@ Protocol: UDP (17)
 Source Port: 12345
 Destination Port: 53
 Payload: 0x1234567890abcdef...
+
 📁 Files
 File	Description
 network_sniffer.py	Basic version of the sniffer.
