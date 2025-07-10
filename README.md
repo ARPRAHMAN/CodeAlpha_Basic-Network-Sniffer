@@ -1,7 +1,9 @@
-🕵️ Network Sniffer
+# 🕵️Network Sniffer
+
 A Python-based network packet sniffer built using the Scapy library. This tool captures and analyzes real-time network traffic, displaying essential details such as source/destination IPs, protocols, ports, and payloads. It also supports packet counting, timestamps, TCP/UDP filtering, colorized console output, and logs for deeper analysis (e.g., via Wireshark).
 
-🚀 Features
+# 🚀 Features
+
 📡 Captures TCP and UDP packets in real-time.
 
 🌐 Displays source/destination IPs, protocols, and ports.
@@ -18,7 +20,8 @@ A Python-based network packet sniffer built using the Scapy library. This tool c
 
 🐧 Built to run on Kali Linux (or any Linux distro) with root privileges.
 
-🧰 Prerequisites
+# 🧰 Prerequisites
+
 Operating System: Kali Linux or compatible Linux distributions.
 
 Python 3: Check with python3 --version.
@@ -31,7 +34,7 @@ Root privileges: Use sudo to run the script.
 
 Network Interface: Identify with ip link (e.g., eth0, wlan0).
 
-🛠 Installation
+# 🛠 Installation
 
 # Update your system
 sudo apt update && sudo apt upgrade -y
@@ -44,7 +47,8 @@ pip3 install scapy termcolor
 
 # Verify installations
 python3 -c "import scapy, termcolor"
-▶️ Usage
+
+# ▶️ Usage
 
 # Clone the repository
 git clone https://github.com/ARPRAHMAN/network-sniffer.git
@@ -58,7 +62,7 @@ sniffer_output.txt (human-readable log)
 
 sniffer_output.pcap (for tools like Wireshark)
 
-🧪 Example Output
+# 🧪 Example Output
 
 [*] Starting network sniffer on interface eth0...
 [*] Logging output to sniffer_output.txt and saving packets to sniffer_output.pcap
@@ -71,14 +75,15 @@ Source Port: 12345
 Destination Port: 53
 Payload: 0x1234567890abcdef...
 
-📁 Files
+# 📁 Files
 File	Description
 network_sniffer.py	Basic version of the sniffer.
 network_sniffer_enhanced.py	Enhanced version with filtering, timestamps, logging, and color output.
 sniffer_output.txt	Captured packet log.
 sniffer_output.pcap	PCAP file for analysis with Wireshark.
 
-⚖️ Ethical Considerations
+# ⚖️ Ethical Considerations
+
 Use this tool responsibly.
 
 Only sniff traffic on networks you own or have explicit permission to monitor.
@@ -92,6 +97,6 @@ This project is licensed under the MIT License.
 
 
 
-📬 Contact
+# 📬 Contact
 For feedback or inquiries:
 contact.me.arifur@gmail.com
