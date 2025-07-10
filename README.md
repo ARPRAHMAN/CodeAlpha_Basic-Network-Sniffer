@@ -33,7 +33,7 @@ pip3 install scapy termcolor
 python3 -c "import scapy, termcolor"
 
 # Clone the repository
-git clone https://github.com/your-username/network-sniffer.git
+git clone https://github.com/ARPRAHMAN/network-sniffer.git
 cd network-sniffer
 
 # Run the sniffer (replace 'eth0' with your actual interface)
