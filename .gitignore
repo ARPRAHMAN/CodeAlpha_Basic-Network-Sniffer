@@ -1,0 +1,15 @@
+Python
+
+pycache/ *.pyc *.pyo *.pyd
+
+Log and PCAP files
+
+sniffer_output.txt sniffer_output.pcap
+
+Environment
+
+*.env venv/ .env/
+
+IDE files
+
+.vscode/ .idea/
